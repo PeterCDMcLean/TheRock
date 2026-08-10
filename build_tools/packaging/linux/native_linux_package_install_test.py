@@ -1301,6 +1301,7 @@ gpgcheck=0
                 "--non-interactive",
                 "remove",
                 "-y",
+                "--clean-deps",
             ] + packages_to_remove
             autoremove_cmd = None
         else:
